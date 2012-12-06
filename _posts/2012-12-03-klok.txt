@@ -8,7 +8,7 @@ title: Hello World
 
 
 <section role="li"> 
-<img src="img/li.jpg" /> 
+<img src="img/li.png" /> 
 </section>
 
 ***
