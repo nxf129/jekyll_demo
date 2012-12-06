@@ -1,0 +1,15 @@
+--- 
+layout: default 
+title: Hello World 
+---
+
+
+    Welcome to WordPress     
+
+
+<section role="li"> 
+<img src="img/li.jpg" /> 
+</section>
+
+***
+

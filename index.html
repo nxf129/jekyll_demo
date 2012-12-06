@@ -1,0 +1,19 @@
+--- 
+layout: default 
+--- 
+<section role="banner"> 
+<img src="img/banner.jpg" /> 
+</section>
+
+
+
+
+
+<section class="content"> 
+<h1> github的日记 </h1>
+<p>最新文章</p>
+<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
